@@ -12,8 +12,8 @@ pip install torch transformers scikit-learn pandas numpy
 
 1. **Clone the repository**  
 ```bash
-   git clone https://github.com/ziling-huang2002/Assignment1-focused-on-ASR-error-correction.git
-   cd Assignment1-focused-on-ASR-error-correction
+   git clone https://github.com/ziling-huang2002/Instruction Classification with BERT (Chinese).git
+   cd Instruction Classification with BERT (Chinese)
 ```
 
 2. **Run**
