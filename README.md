@@ -1,13 +1,5 @@
 # Instruction Classification with BERT (Chinese)
 
-## Requirements
-
-Install the required packages using pip:
-
-```bash
-pip install torch transformers scikit-learn pandas numpy
-```
-
 ## How to Run
 
 1. **Clone the repository**  
@@ -19,4 +11,6 @@ pip install torch transformers scikit-learn pandas numpy
 2. **Run**
   <br>Open [`main.ipynb`](main.ipynb) using Jupyter Notebook or VSCode and execute all cells in order.
 
-
+## Result
+![Loss and Accuracy Curve](images/loss_accuracy_curve.png)
+![Confusion Matrix](images/bert_confusion_matrix.png)
