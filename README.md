@@ -1,16 +1,18 @@
 # Instruction Classification with BERT (Chinese)
 This repository is part of my coursework for the Kaggle HW1 Instruction Classifier competition. The goal is to classify Chinese instructions into three operation types: replace, insert, and delete. I fine-tuned a BERT-based Chinese pretrained model and incorporated several architectural enhancements to improve classification performance.
 
+## Requirement
+Python 3.11.13
+
 ## How to Run
-
-1. **Clone the repository**  
-```bash
-   git clone https://github.com/ziling-huang2002/Instruction Classification with BERT (Chinese).git
-   cd Instruction Classification with BERT (Chinese)
-```
-
-2. **Run**
-  <br>Open [`main.ipynb`](main.ipynb) using Jupyter Notebook or VSCode and execute all cells in order.
+Since the dataset is hosted on Kaggle and cannot be redistributed, please follow these steps to run the code directly on the Kaggle platform:
+1. Go to the competition page: [HW1 Instruction Classifier](https://www.kaggle.com/competitions/hw-1-instruction-classifier)
+2. Click “Join Competition” to gain access to the dataset
+3. Download[`main.ipynb`](main.ipynb) from this GitHub repo.
+4. On Kaggle, go to “Code” → “New Notebook”.
+5. Click “Upload Notebook” and import main.ipynb you just downloaded.
+6. Make sure the dataset is correctly mounted under __/kaggle/input/__.
+7. Click “Run All” to execute the notebook and generate predictions.
 
 ## Result
 | Class         | Precision | Recall | F1-Score | Support |
