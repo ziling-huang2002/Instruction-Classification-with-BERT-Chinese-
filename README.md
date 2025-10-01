@@ -10,8 +10,8 @@ Since the dataset is hosted on Kaggle and cannot be redistributed, please follow
 2. Click “Join Competition” to gain access to the dataset
 3. Download[`main.ipynb`](main.ipynb) from this GitHub repo.
 4. On Kaggle, go to “Code” → “New Notebook”.
-5. Click “Upload Notebook” and import main.ipynb you just downloaded.
-6. Make sure the dataset is correctly mounted under __/kaggle/input/__.
+5. Click “Import Notebook” and import __main.ipynb__ you just downloaded.
+6. Make sure the dataset is correctly mounted under **/kaggle/input/**.
 7. Click “Run All” to execute the notebook and generate predictions.
 
 ## Result
