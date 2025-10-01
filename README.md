@@ -1,4 +1,5 @@
 # Instruction Classification with BERT (Chinese)
+This repository is part of my coursework for the Kaggle HW1 Instruction Classifier competition. The goal is to classify Chinese instructions into three operation types: replace, insert, and delete. I fine-tuned a BERT-based Chinese pretrained model and incorporated several architectural enhancements to improve classification performance.
 
 ## How to Run
 
